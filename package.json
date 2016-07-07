@@ -1,6 +1,6 @@
 {
   "name": "azip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asynchronous zip manager",
   "main": "lib",
   "scripts": {
