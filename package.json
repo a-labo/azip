@@ -22,7 +22,8 @@
   "dependencies": {
     "archiver": "^1.0.0",
     "asfs": "^1.0.4",
-    "co": "^4.6.0"
+    "co": "^4.6.0",
+    "unzip": "^0.1.11"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
