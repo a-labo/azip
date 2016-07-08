@@ -22,7 +22,7 @@ describe('unzip', function () {
   it('Unzip', () => co(function * () {
     yield unzip(
       `${__dirname}/../misc/mocks/mock-zip.zip`,
-      `${__dirname}/../tmp/foo/bar`
+      `${__dirname}/../tmp/testing-unzipped`
     )
   }))
 })

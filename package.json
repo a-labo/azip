@@ -1,6 +1,6 @@
 {
   "name": "azip",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Asynchronous zip manager",
   "main": "lib",
   "scripts": {
@@ -23,7 +23,7 @@
     "archiver": "^1.0.0",
     "asfs": "^1.0.4",
     "co": "^4.6.0",
-    "unzip": "^0.1.11"
+    "extract-zip": "^1.5.0"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
