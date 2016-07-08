@@ -20,7 +20,7 @@ describe('zip', function () {
   }))
 
   it('Zip', () => co(function * () {
-
+    yield zip(__dirname, `${__dirname}/../tmp/testing-zip.zip`)
   }))
 })
 
