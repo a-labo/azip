@@ -1,14 +1,16 @@
 {
   "name": "azip",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Asynchronous zip manager",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js"
   },
-  "repository": "okunishinishi/node-azip",
-  "keywords": [],
+  "repository": "a-labo/azip",
+  "keywords": [
+    "zip"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishitaka.com@gmail.com",
@@ -16,12 +18,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okunishinishi/node-azip/issues"
+    "url": "https://github.com/a-labo/azip/issues"
   },
-  "homepage": "https://github.com/okunishinishi/node-azip#readme",
+  "homepage": "https://github.com/a-labo/azip#readme",
   "dependencies": {
     "archiver": "^1.0.0",
-    "asfs": "^1.0.4",
+    "asfs": "^1.0.5",
     "co": "^4.6.0",
     "extract-zip": "^1.5.0"
   },
